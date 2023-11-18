@@ -2,14 +2,14 @@ import {
     Transaction, SystemProgram, Connection, Keypair,
     LAMPORTS_PER_SOL, sendAndConfirmTransaction, PublicKey
 } from
-    "@solana/web3.js"
+    "@solana/web3.js" 
 
 import wallet from "./dev-wallet.json"
 // Import our dev wallet keypair from the wallet file
 const from = Keypair.fromSecretKey(new Uint8Array(wallet));
 // Define our WBA public key
 const to = new
-    PublicKey("GLtaTaYiTQrgz411iPJD79rsoee59HhEy18rtRdrhEUJ");
+    PublicKey("Gd98uAD23f1wZigYqpKnPcrDxF6EnzraPqys2otcjH4h");
 
 //Create a Solana devnet connection
 const connection = new Connection("https://api.devnet.solana.com");
@@ -41,3 +41,4 @@ const connection = new Connection("https://api.devnet.solana.com");
         console.error(`Oops, something went wrong: ${e}`)
     }
 })();
+
