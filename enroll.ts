@@ -20,7 +20,7 @@ const provider = new AnchorProvider(connection, new Wallet(keypair), {
 });
 
 // Create our program
-const program = new Program <WbaPrereq> (IDL,
+const program = new Program<WbaPrereq>(IDL,
     "HC2oqz2p6DEWfrahenqdq2moUcga9c9biqRBcdK3XKU1" as Address, provider);
 
 // Create the PDA for our enrollment account
@@ -29,21 +29,22 @@ keypair.publicKey.toBuffer()];
 const [enrollment_key, _bump] =
     PublicKey.findProgramAddressSync(enrollment_seeds, program.programId);
 
+// Execute our enrollment transaction
 (async () => {
     try {
-        const txhash = await program.methods
-            .complete(github)
-            .accounts({
-                signer: keypair.publicKey,
-                prereq: enrollment_key,
-                systemProgram: SystemProgram.programId,
-            })
-            .signers([
-                keypair
-            ]).rpc();
-        console.log(`Success! Check out your TX here:
+    const txhash = await program.methods
+    .complete(github)
+    .accounts({
+    signer: keypair.publicKey,
+    prereq: enrollment_key,
+    systemProgram: SystemProgram.programId,
+    })
+    .signers([
+    keypair
+    ]).rpc();
+    console.log(`Success! Check out your TX here:
     https://explorer.solana.com/tx/${txhash}?cluster=devnet`);
-    } catch (e) {
-        console.error(`Oops, something went wrong: ${e}`)
+    } catch(e) {
+    console.error(`Oops, something went wrong: ${e}`)
     }
-})();
+    })();
