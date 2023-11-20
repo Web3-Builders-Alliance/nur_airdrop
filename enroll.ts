@@ -3,7 +3,7 @@ import { Connection, Keypair, SystemProgram, PublicKey } from
 import { Program, Wallet, AnchorProvider, Address } from
     "@project-serum/anchor"
 import { WbaPrereq, IDL } from "./programs/wba_prereq";
-import wallet from "./dev-wallet.json"
+import wallet from "./wba-wallet.json"
 
 // We're going to import our keypair from the wallet file
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
@@ -20,7 +20,7 @@ const provider = new AnchorProvider(connection, new Wallet(keypair), {
 });
 
 // Create our program
-const program = new Program<WbaPrereq>(IDL,
+const program = new Program <WbaPrereq> (IDL,
     "HC2oqz2p6DEWfrahenqdq2moUcga9c9biqRBcdK3XKU1" as Address, provider);
 
 // Create the PDA for our enrollment account
