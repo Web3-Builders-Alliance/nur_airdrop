@@ -13,7 +13,7 @@ import {
   Address,
   BN,
 } from "@coral-xyz/anchor";
-import { WbaVault, IDL } from "../programs/wba_vault.ts";
+import { WbaVault, IDL } from "../programs/wba_vault";
 import wallet from "./wba-wallet.json";
 
 // Import our keypair from the wallet file
