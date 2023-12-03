@@ -6,7 +6,7 @@ import {
   Commitment,
 } from "@solana/web3.js";
 import { Program, Wallet, AnchorProvider, Address } from "@coral-xyz/anchor";
-import { WbaVault, IDL } from "./ts/programs/wba_vault.ts";
+import { WbaVault, IDL } from "../programs/wba_vault";
 import wallet from "./wba-wallet.json";
 import { buffer } from "stream/consumers";
 /// J8qKEmQpadFeBuXAVseH8GNrvsyBhMT8MHSVD3enRgJz
@@ -33,11 +33,13 @@ const program = new Program<WbaVault>(
 );
 
 // Create a random keypair
+
 const vaultState = Keypair.generate();
 console.log(`Vault public key: ${vaultState.publicKey.toBase58()}`);
 
 // Create the PDA for our enrollment account
 //Seeds are "auth", vaultState
+
 const vaultAuthKeys = [Buffer.from("auth"), vaultState.publicKey.toBuffer()];
 const [vaultAuth, _bump] =
      PublicKey.findProgramAddressSync(
@@ -45,16 +47,28 @@ const [vaultAuth, _bump] =
 
 // Create the vault key
 // Seeds are "vault", vaultAuth
-// const vault = ???
+
+const vault = [Buffer.from("vault"), vaultAuth.toBuffer()];
+const [vaultKey, _bump2] =
+     PublicKey.findProgramAddressSync(
+      vaultAuthKeys, program.programId);
+
+
 
 // Execute our enrollment transaction
 (async () => {
   try {
-    // const signature = await program.methods.initialize()
-    // .accounts({
-    //     ???
-    // }).signers([keypair, vaultState]).rpc();
-    // console.log(`Init success! Check out your TX here:\n\nhttps://explorer.solana.com/tx/${signature}?cluster=devnet`);
+    const signature = await program.methods.initialize()
+    .accounts({
+        owner: keypair.publicKey,
+        vault: vaultKey,
+        vaultAuth: vaultAuth,
+        vaultState:vaultState.publicKey,
+        systemProgram: SystemProgram.programId,
+        //Note: Two Signers
+    }).signers([keypair, vaultState]).rpc();
+    
+    console.log(`Init success! Check out your TX here:\n\nhttps://explorer.solana.com/tx/${signature}?cluster=devnet`);
   } catch (e) {
     console.error(`Oops, something went wrong: ${e}`);
   }
