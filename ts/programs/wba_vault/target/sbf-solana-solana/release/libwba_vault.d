@@ -1,0 +1,1 @@
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/wba_vault/target/sbf-solana-solana/release/libwba_vault.rlib: /Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/wba_vault/programs/wba_vault/src/lib.rs
