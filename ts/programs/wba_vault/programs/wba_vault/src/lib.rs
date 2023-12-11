@@ -74,7 +74,6 @@ pub struct Deposit  <'info> {
 
     pub vault_state: Account <'info, Vault>,
 
-
     #[account(
         seeds = [b"auth", vault_state.key().as_ref()],
         bump
