@@ -1,0 +1,10 @@
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/sbf-solana-solana/release/deps/log-684abae6cb089fef.rmeta: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/macros.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/serde.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/__private_api.rs
+
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/sbf-solana-solana/release/deps/liblog-684abae6cb089fef.rlib: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/macros.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/serde.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/__private_api.rs
+
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/sbf-solana-solana/release/deps/log-684abae6cb089fef.d: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/macros.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/serde.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/__private_api.rs
+
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/lib.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/macros.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/serde.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.20/src/__private_api.rs:

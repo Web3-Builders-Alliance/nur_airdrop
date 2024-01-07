@@ -1,0 +1,26 @@
+[2023-12-06T19:58:16.734158000Z INFO  solana_test_validator] solana-validator 1.17.6 (src:61caae6b; feat:3073089885, client:SolanaLabs)
+[2023-12-06T19:58:16.734344000Z INFO  solana_test_validator] Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+            "--ledger",
+            ".anchor/test-ledger",
+            "--mint",
+            "Bs53MuEQA5yqJNfwLWqBHf2QcixNAkPgQ6XqsZ9kaXbL",
+            "--bpf-program",
+            "AiMmqdacpZ8E2TR76sTfV2ZN34BN1KcnTazEe9gxyA4o",
+            "/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/deploy/projectwho.so",
+        ],
+    }
+[2023-12-06T19:58:16.734404000Z WARN  solana_perf] CUDA is disabled
+[2023-12-06T19:58:16.742255000Z INFO  solana_perf] AVX detected
+[2023-12-06T19:58:16.742319000Z INFO  solana_perf] AVX2 detected
+[2023-12-06T19:58:16.744063000Z INFO  solana_faucet::faucet] Faucet started. Listening on: 0.0.0.0:9900
+[2023-12-06T19:58:16.744121000Z INFO  solana_faucet::faucet] Faucet account address: 89VF29c4uoupQ1C899654Vmd6pamV6h9ggh5B3MdQkpJ
+[2023-12-06T19:58:16.744755000Z INFO  solana_validator::admin_rpc_service] started admin rpc service!
+[2023-12-06T19:58:16.747508000Z INFO  solana_test_validator] Feature for HCnE3xQoZtDz9dSVm3jKwJXioTb6zMRbgwCmGg3PHHk8 deactivated
+[2023-12-06T19:58:16.751013000Z INFO  solana_ledger::blockstore] Maximum open file descriptors: 1000000
+[2023-12-06T19:58:16.751041000Z INFO  solana_ledger::blockstore] Opening database at ".anchor/test-ledger/rocksdb"
+[2023-12-06T19:58:16.935186000Z INFO  solana_ledger::blockstore] ".anchor/test-ledger/rocksdb" open took 184ms
+[2023-12-06T19:58:16.937638000Z INFO  solana_metrics::metrics] metrics disabled: environment variable not found
+[2023-12-06T19:58:16.937748000Z INFO  solana_metrics::metrics] datapoint: shred_insert_is_full total_time_ms=0i slot=0i last_index=3i num_repaired=0i num_recovered=0i
+[2023-12-06T19:58:17.096218000Z INFO  solana_accounts_db::hardened_unpack] Extracting ".anchor/test-ledger/genesis.tar.bz2"...

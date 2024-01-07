@@ -1,0 +1,9 @@
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/anchor-marketplace/anchor-marketplace/target/sbf-solana-solana/release/deps/thiserror-c6af89b98f536c5d.rmeta: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/aserror.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/display.rs
+
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/anchor-marketplace/anchor-marketplace/target/sbf-solana-solana/release/deps/libthiserror-c6af89b98f536c5d.rlib: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/aserror.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/display.rs
+
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/anchor-marketplace/anchor-marketplace/target/sbf-solana-solana/release/deps/thiserror-c6af89b98f536c5d.d: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/aserror.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/display.rs
+
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/lib.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/aserror.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-1.0.51/src/display.rs:

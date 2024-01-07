@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "name": "projectwho",
+  "instructions": [
+    {
+      "name": "initialize",
+      "accounts": [],
+      "args": []
+    }
+  ],
+  "metadata": {
+    "address": "AiMmqdacpZ8E2TR76sTfV2ZN34BN1KcnTazEe9gxyA4o"
+  }
+}

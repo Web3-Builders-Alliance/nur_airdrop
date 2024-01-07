@@ -1,0 +1,1 @@
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/sbf-solana-solana/release/projectwho.so: /Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/programs/projectwho/src/lib.rs

@@ -1,0 +1,10 @@
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/release/deps/cc-7a4a485af309d972.rmeta: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe/unix.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/windows_registry.rs
+
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/release/deps/libcc-7a4a485af309d972.rlib: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe/unix.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/windows_registry.rs
+
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/projectwho/projectwho/target/release/deps/cc-7a4a485af309d972.d: /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/lib.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe/unix.rs /Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/windows_registry.rs
+
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/lib.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/os_pipe/unix.rs:
+/Users/nursultanseyhanlioglu/.cargo/registry/src/github.com-1ecc6299db9ec823/cc-1.0.83/src/windows_registry.rs:

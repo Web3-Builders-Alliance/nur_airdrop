@@ -1,0 +1,1 @@
+/Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/nur-vault/nur-vault/target/sbf-solana-solana/release/nur_vault.so: /Users/nursultanseyhanlioglu/Documents/project/wbaclass/airdrop/ts/programs/nur-vault/nur-vault/programs/nur-vault/src/lib.rs
